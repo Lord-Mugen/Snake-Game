@@ -13,7 +13,7 @@ class Snake:
     def __init__(self):
         self.segments = [] #atributo
         self.create_snake() #metodo
-        self.head = self-segments[0]
+        self.head = self.segments[0]
 
     def create_snake(self):
         for position in STARTING_POSITION:
